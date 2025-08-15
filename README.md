@@ -12,25 +12,9 @@ A customizable AI chatbot built with Next.js, featuring persona-based interactio
 
 ## Project Structure
 
-src/
-├─ app/
-│ └─ chat/
-│ └─ [id]/page.tsx
-├─ components/
-│ └─ PersonaCard.tsx
-├─ lib/
-│ └─ personas/
-│ ├─ hitesh.txt
-│ └─ piyush.txt
-│ └─ getPersona.server.ts
-├─ public/
-│ └─ images/
-│ ├─ hitesh.jpg
-│ └─ piyush.jpg
-└─ styles/
-└─ globals.css
+<img width="454" height="716" alt="image" src="https://github.com/user-attachments/assets/acc7be6d-b1ab-4073-baaf-6834c4cec03b" />
 
-# Setup Instructions
+## Setup Instructions
 
 1. Clone the Repository
 ```bash
