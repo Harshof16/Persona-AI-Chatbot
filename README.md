@@ -90,11 +90,11 @@ Visit http://localhost:3000 to interact with the chatbot.
 
 Here’s a persona card example:
 
-![Persona Card](<img width="2076" height="1055" alt="image" src="https://github.com/user-attachments/assets/eb4304d7-6a1e-46a0-8ac4-86e9cfbd57cc" />)
+<img width="2076" height="1055" alt="image" src="https://github.com/user-attachments/assets/eb4304d7-6a1e-46a0-8ac4-86e9cfbd57cc" />
 
 and here’s how the chat page looks:
 
-![Chat Page](<img width="2140" height="1340" alt="image" src="https://github.com/user-attachments/assets/043d9fdf-da01-4c5a-bd1f-b8b9d6d2dbc7" />)
+<img width="2140" height="1340" alt="image" src="https://github.com/user-attachments/assets/043d9fdf-da01-4c5a-bd1f-b8b9d6d2dbc7" />
 
 <img width="2102" height="1328" alt="image" src="https://github.com/user-attachments/assets/aae83ce0-1cf7-490d-890b-c8c4b93defc0" />
 
