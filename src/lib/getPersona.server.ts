@@ -7,14 +7,9 @@ export function getPersona(id: string | undefined | null): Persona | undefined {
   if (!id) return undefined;
 
   try {
-    // const filePath = path.join(__dirname, "personas", `${id}.txt`);
-    // const filePath = path.join(__dirname, 'hitesh.txt');
-    const filePath = path.resolve(process.cwd(), `src/lib/personas/${id}.txt`)
-console.log('Resolved Path:', filePath);
+    const filePath = path.resolve(process.cwd(), `src/lib/personas/${id}.txt`);
 
-// Check if file exists
-console.log('Exists?', fs.existsSync(filePath));
-    console.log('filePath:', filePath);
+    // Check if file exists
     const systemPrompt = fs.readFileSync(filePath, "utf-8");
 
     return {
@@ -26,4 +21,3 @@ console.log('Exists?', fs.existsSync(filePath));
     return undefined;
   }
 }
-

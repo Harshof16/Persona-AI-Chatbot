@@ -3,8 +3,7 @@ import { notFound } from 'next/navigation'
 import ChatWindow from '@/components/ChatWindow'
 import { getPersona } from '@/lib/getPersona.server'
 
-export default function ChatPage({ params }: { params: { id: string } }) {
-  console.log('params.id:--', params.id)
+export default function ChatPage({ params }: any) {
   const persona = getPersona(params.id)
   if (!persona) return notFound()
 

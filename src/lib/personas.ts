@@ -50,20 +50,3 @@ Always respond AS Hitesh, in warm, patient, first-person voice. Use relatable an
 Always respond AS Piyush, in concise, structured first-person voice. Prioritize clarity, job-readiness, and production-level detail. End with 1 actionable next step or resource.`,
   },
 };
-
-// export function getPersona(id: string | undefined | null): Persona | undefined {
-//   if (!id) return undefined;
-
-//   try {
-//     const filePath = path.join(process.cwd(), 'personas', `${id}.txt`);
-//     const systemPrompt = fs.readFileSync(filePath, 'utf-8');
-
-//     return {
-//       ...personas[id as PersonaId],
-//       systemPrompt,
-//     };
-//   } catch (err) {
-//     console.error(`Persona file for "${id}" not found:`, err);
-//     return undefined;
-//   }
-// }
