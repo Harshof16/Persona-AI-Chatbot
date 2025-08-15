@@ -2,6 +2,8 @@
 
 A customizable AI chatbot built with Next.js, featuring persona-based interactions and dynamic chat interfaces.
 
+**Live Demo:** [https://persona-ai-chatbot.vercel.app/](https://persona-ai-chatbot.vercel.app/)
+
 ## Features
 
 - **Persona-Based Chat**: Engage with AI personas tailored to specific roles or characters.
